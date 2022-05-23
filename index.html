@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>English Quize Test</title>
+    <link rel="icon" href="Quiz_Icon.png" type="image/png">
+</head>
+<body id="body">
+    <div class="switch">
+        <input type="checkbox" name="" id="Ctrl">
+        <label for="Ctrl"></label>
+    </div>
+        <header>
+            <h1>زبان</h1>
+            <p>سولات کنکور زبان انگلیسی 10 سال اخیر گروه تجربی</p>
+        </header>
+        <section>
+            <div id="result"></div>
+            <form name="quizForms" onsubmit="return submitanswers();">
+                <h4>1. Mona ………. The manager’s job?</h4>
+                <input type="radio" name="q1" value="a">a. offers<br>
+                <input type="radio" name="q1" value="b">b. is offered<br>
+                <input type="radio" name="q1" value="c">c. has offered<br>
+                <input type="radio" name="q1" value="d">d. has been offered<br>
+                <h4>2. -Teams from many countries ……….. to take part in the previous OIympic Games.</h4>
+                <input type="radio" name="q2" value="a">a. did not invite<br>
+                <input type="radio" name="q2" value="b">b. have not been invited<br>
+                <input type="radio" name="q2" value="c">c. were not invited<br>
+                <input type="radio" name="q2" value="d">d. have not invied<br>
+                <h4>3. There was a fire at the hotel last week.Two of the rooms…… .</h4>
+                <input type="radio" name="q3" value="a">a. have damaged<br>
+                <input type="radio" name="q3" value="b">b. had damaged<br>
+                <input type="radio" name="q3" value="c">c. were damaged<br>
+                <input type="radio" name="q3" value="d">d. were damaging<br>
+                <h4>4. The girl ……… two days before she …….. to be missing.</h4>
+                <input type="radio" name="q4" value="a">a. disappeared-reported<br>
+                <input type="radio" name="q4" value="b">b. was dis appeared- reported<br>
+                <input type="radio" name="q4" value="c">c. disappeared-was reported<br>
+                <input type="radio" name="q4" value="d">d. was disappeared-was reported<br>
+                <h4>5. Do you know that Maria …… as a computer programmer of the company?</h4>
+                <input type="radio" name="q5" value="a">a. was inviting<br>
+                <input type="radio" name="q5" value="b">b. is inviting<br>
+                <input type="radio" name="q5" value="c">c. has been invited<br>
+                <input type="radio" name="q5" value="d">d. is going to invite<br>
+                <h4>6. The land next to our house ………… sold to the government recently.</h4>
+                <input type="radio" name="q6" value="a">a. is<br>
+                <input type="radio" name="q6" value="b">b. will be<br>
+                <input type="radio" name="q6" value="c">c. has been<br>
+                <input type="radio" name="q6" value="d">d. had been<br>
+                <h4>7. Many apartments …… for the poor employees during the last five years.</h4>
+                <input type="radio" name="q7" value="a">a. are built<br>
+                <input type="radio" name="q7" value="b">b. were building<br>
+                <input type="radio" name="q7" value="c">c. have built<br>
+                <input type="radio" name="q7" value="d">d. have been built<br>
+                <h4>8. Mona Lisa ……. By Leonardo da Vinci as far as I ……… .</h4>
+                <input type="radio" name="q8" value="a">a. was painted –know<br>
+                <input type="radio" name="q8" value="b">b. was painted –am Known<br>
+                <input type="radio" name="q8" value="c">c. has been painted –am known<br>
+                <input type="radio" name="q8" value="d">d. has been painted-know<br>
+                <h4>9. The robber …… since last week.</h4>
+                <input type="radio" name="q9" value="a">a. wasn’t seen<br>
+                <input type="radio" name="q9" value="b">b. hasn’t been seen<br>
+                <input type="radio" name="q9" value="c">c. has seen<br>
+                <input type="radio" name="q9" value="d">d. hadn’t been seen<br>
+                <h4>10. Gold …….. from deep underground in some Africa countries.</h4>
+                <input type="radio" name="q10" value="a">a. is mined<br>
+                <input type="radio" name="q10" value="b">b. has mined<br>
+                <input type="radio" name="q10" value="c">c. mined<br>
+                <input type="radio" name="q10" value="d">d. is mining<br>
+                <h4>11. The chosen colors and the designs that …… in finger painting may give a clue into how the painter is feeling inside</h4>
+                <input type="radio" name="q11" value="a">a. had made<br>
+                <input type="radio" name="q11" value="b">b. are made<br>
+                <input type="radio" name="q11" value="c">c. were being made<br>
+                <input type="radio" name="q11" value="d">d. would be made.<br>
+                <h4>12. The dishes ……. Yet. Could you please wash them up ?</h4>
+                <input type="radio" name="q12" value="a">a. have been not washed<br>
+                <input type="radio" name="q12" value="b">b. have not been washed<br>
+                <input type="radio" name="q12" value="c">c. are not being washed<br>
+                <input type="radio" name="q12" value="d">d. had not being washed<br>
+                <h4>13. My bike …….. !I am going to call the police.</h4>
+                <input type="radio" name="q13" value="a">a. stole<br>
+                <input type="radio" name="q13" value="b">b. was stealing<br>
+                <input type="radio" name="q13" value="c">c. had been srolen<br>
+                <input type="radio" name="q13" value="d">d. was being stolen<br>
+                <h4>14. The research done producted …….. that surprised almost everyone.</h4>
+                <input type="radio" name="q14" value="a">a. result<br>
+                <input type="radio" name="q14" value="b">b. pioneers<br>
+                <input type="radio" name="q14" value="c">c. endeavors<br>
+                <input type="radio" name="q14" value="d">d. impressions<br>
+                <h4>15. It is ……. Knowledge that swimming is one of the best forms of exercise.</h4>
+                <input type="radio" name="q15" value="a">a. serious<br>
+                <input type="radio" name="q15" value="b">b. average<br>
+                <input type="radio" name="q15" value="c">c. common <br>
+                <input type="radio" name="q15" value="d">d. efficient<br>
+                <h4>16. My …… of books and magazines is nothing in comparison with that of a library.</h4>
+                <input type="radio" name="q16" value="a">a. collection<br>
+                <input type="radio" name="q16" value="b">b. production<br>
+                <input type="radio" name="q16" value="c">c. involvement<br>
+                <input type="radio" name="q16" value="d">d. performance<br>
+                <h4>17. This cloth has been slowly ……. In order to make it waterproof.</h4>
+                <input type="radio" name="q17" value="a">a. welcomed<br>
+                <input type="radio" name="q17" value="b">b. processed<br>
+                <input type="radio" name="q17" value="c">c. researched<br>
+                <input type="radio" name="q17" value="d">d. predicted<br>
+                <h4>18. The government has been blamed for not answering ……. To the needs of the homeless</h4>
+                <input type="radio" name="q18" value="a">a. appropriately<br>
+                <input type="radio" name="q18" value="b">b. comfortably<br>
+                <input type="radio" name="q18" value="c">c. accidentally<br>
+                <input type="radio" name="q18" value="d">d. surprisingly<br>
+                <h4>19. Her own twelve pictures sold fairly well ……… to friends and family.</h4>
+                <input type="radio" name="q19" value="a">a. recently<br>
+                <input type="radio" name="q19" value="b">b. nearly<br>
+                <input type="radio" name="q19" value="c">c. mostly<br>
+                <input type="radio" name="q19" value="d">d. reasonably<br>
+                <h4>20. She was running fast ,that is why she is now breathing …….</h4>
+                <input type="radio" name="q20" value="a">a. heavily<br>
+                <input type="radio" name="q20" value="b">b. extremely<br>
+                <input type="radio" name="q20" value="c">c. specifically<br>
+                <input type="radio" name="q20" value="d">d. appropriately<br>
+                <h4>21. This travel agency holds tours which provide a wide ,variety of outdoor …… .</h4>
+                <input type="radio" name="q21" value="a">a. occasions<br>
+                <input type="radio" name="q21" value="b">b. functions<br>
+                <input type="radio" name="q21" value="c">c. activities<br>
+                <input type="radio" name="q21" value="d">d. instructions<br>
+                <h4>22. The success of the ……… depends on our controlling the conditions carefully.</h4>
+                <input type="radio" name="q22" value="a">a. emergency<br>
+                <input type="radio" name="q22" value="b">b. experiment<br>
+                <input type="radio" name="q22" value="c">c. entertainment<br>
+                <input type="radio" name="q22" value="d">d. environment<br>
+                <h4>23. A good teacher should encourage the students to discover basic scientific ….. .</h4>
+                <input type="radio" name="q23" value="a">a. facts<br>
+                <input type="radio" name="q23" value="b">b. habits<br>
+                <input type="radio" name="q23" value="c">c. goals<br>
+                <input type="radio" name="q23" value="d">d. tasks<br>
+                <h4>24. A:Did you know that Maria’s getting married? B:No,I didn’t .How …… ?</h4>
+                <input type="radio" name="q24" value="a">a. reasonable<br>
+                <input type="radio" name="q24" value="b">b. serious<br>
+                <input type="radio" name="q24" value="c">c. wonderful<br>
+                <input type="radio" name="q24" value="d">d. probable<br>
+                <h4>25. He escaped from …….. by going to the cinema ever afternoon.</h4>
+                <input type="radio" name="q25" value="a">a. function<br>
+                <input type="radio" name="q25" value="b">b. reality<br>
+                <input type="radio" name="q25" value="c">c. certainty<br>
+                <input type="radio" name="q25" value="d">d. capacity<br>
+                <br><br>
+                <input type="submit" value="Submit Answers">
+            </form>
+        </section>
+        <footer>
+            <p>Copyright &copy;, All Right Resevred</p>
+        </footer>
+    <script src="min.js"></script>
+</body>
+</html>
